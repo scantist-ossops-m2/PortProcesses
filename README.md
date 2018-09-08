@@ -2,9 +2,7 @@
 
 ## Install
 
-```
-npm install -g PortProcesses
-```
+    npm install -g PortProcesses
 
 ## Usage
 
@@ -12,15 +10,11 @@ npm install -g PortProcesses
 
 The following command will list all processes running on port `8000`. You can replace `8000` with any port to get the processes running on that port. The output will be in JSON format.
 
-```
-portprocesses list 8000
-```
+    portprocesses list 8000
 
 The following command will kill all processes running on port `8000`. You can replace `8000` with any port to kill the processes running on that port.
 
-```
-portprocesses kill 8000
-```
+    portprocesses kill 8000
 
 ### Node.js
 
