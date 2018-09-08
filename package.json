@@ -10,7 +10,11 @@
   "bin": {
     "portprocesses": "cli.js"
   },
-  "keywords": ["process", "port", "manager"],
+  "keywords": [
+    "process",
+    "port",
+    "manager"
+  ],
   "author": "rrainn, Inc.",
   "license": "MIT",
   "repository": {
