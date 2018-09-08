@@ -7,10 +7,12 @@ async function task() {
 
 	switch (command) {
 		case "kill":
-			await main.killAllProcessesOnPort(port);
+			const result = await main.killAllProcessesOnPort(port);
+			console.log(result.filter(item => !item.success).map(item => `Failed to kill process ${item.pid}`).join('\n'));
 			break;
 		case "list":
-			await main.listProcessesOnPort(port);
+			const result = await main.listProcessesOnPort(port);
+			console.log(result);
 			break;
 		default:
 			console.error("Command not found");
