@@ -1,5 +1,5 @@
 {
-  "name": "PortProcesses",
+  "name": "portprocesses",
   "version": "1.0.2",
   "description": "This tool letes you list and kill processes on a specified port.",
   "main": "index.js",
