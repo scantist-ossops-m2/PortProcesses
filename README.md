@@ -2,7 +2,7 @@
 
 ## Install
 
-    npm install -g PortProcesses
+    npm install -g portprocesses
 
 ## Usage
 
