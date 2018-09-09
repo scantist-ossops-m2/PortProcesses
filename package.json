@@ -1,6 +1,6 @@
 {
   "name": "portprocesses",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This tool letes you list and kill processes on a specified port.",
   "main": "index.js",
   "scripts": {
